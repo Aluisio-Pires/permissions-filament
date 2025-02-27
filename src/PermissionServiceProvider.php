@@ -11,17 +11,7 @@ class PermissionServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->offerPublishing();
         $this->commands([]);
-    }
-
-    protected function offerPublishing(): void
-    {
-        if (! $this->app->runningInConsole()) {
-            return;
-        }
-
-        $this->publishesFiles();
     }
 
     /**
