@@ -3,19 +3,7 @@
     "description": "Permission handling for Laravel 8.0 and up",
     "license": "MIT",
     "keywords": [
-        "spatie",
-        "laravel-permission",
-        "filament",
-        "permissions-filament",
-        "aluisio",
-        "aluisio-pires",
-        "laravel",
-        "permission",
-        "permissions",
-        "roles",
-        "acl",
-        "rbac",
-        "security"
+        "permissions-filament"
     ],
     "authors": [
         {
